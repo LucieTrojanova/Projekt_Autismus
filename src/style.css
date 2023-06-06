@@ -1,1 +1,18 @@
+body {
+  background-color: rgb(148, 178, 233);
+}
 
+h1 {
+  font-size: 30px;
+  color: white;
+}
+
+.tlacitka {
+  display: flex;
+
+}
+
+.tlacitko {
+  background-color: rgb(7, 7, 125);
+  color: white;
+}
