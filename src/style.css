@@ -9,24 +9,33 @@ h1 {
   margin-top: 80px;
 }
 
-.tlacitka {
+.obsah {
   display: flex;
   justify-content: space-evenly;
   margin-top: 80px;
+  flex-direction: row;
+  list-style: none;
+
 }
 
-.tlacitko {
+li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 180px;
+  height: 50px;
+
   /* background-color: rgb(7, 7, 125);
   /*background-image: conic-gradient(#4719bd 45deg, #4881ec 45deg 90deg, rgb(7, 7, 125) 90deg 180deg);
 */
   background-image: linear-gradient(to bottom left, #4719bd, #4881ec, rgb(7, 7, 125));
   /* background-image: linear-gradient(135deg, #4719bd 40%, #dee2ea);
   background: linear-gradient(to top right, black 0%, white 51%, black 51%, white 100%);*/
+}
+
+.tlacitko {
   color: white;
-  width: 180px;
-  height: 50px;
   font-size: 30px;
-
   /*border: white;*/
-
+  text-decoration: none;
 }
