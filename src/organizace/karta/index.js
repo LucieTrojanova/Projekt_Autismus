@@ -1,8 +1,11 @@
 import './style.css';
+import img_nautis from '../../img/nautis.png';
+import img_ric from '../../img/ric.png';
+
 export const karta = (props) => {
   return `
   <div class="karta">
-  <img class="karta__obrazek" src="img/ric.png" alt="ric" />
+  <img class="karta__obrazek" src=${img_ric} alt="ric" />
   <div class="karta__name">Rodinné Integrační Centrum z. s.</div>
   <div>náměstí Republiky 2686, 530 02 Pardubice</div>
   <div>vchod z ulice Jindřišská</div>
@@ -15,7 +18,7 @@ export const karta = (props) => {
   </div>
 </div>
 <div class="karta">
-  <img class="karta__obrazek" src="img/nautis.png" alt="nautis" />
+  <img class="karta__obrazek" src= ${img_nautis} alt="nautis" />
   <div class="karta__name">Národní ústav pro autismus, z.ú.</div>
   <div>V Holešovičkách 593/1a, 182 00 Praha 8</div>
   <div>E-mail: poradna@nautis.cz</div>
