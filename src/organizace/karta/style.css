@@ -1,0 +1,34 @@
+body {
+  /* background-color: rgb(148, 178, 233);*/
+  background-image: linear-gradient(to bottom left, #2a62d2, #95aedd, rgb(53, 73, 156));
+  /*background-image: linear-gradient(to bottom left, #4719bd, #4881ec, rgb(7, 7, 125));*/
+  background-attachment: fixed;
+  font-family: "Roboto", sans-serif;
+  text-rendering: auto;
+}
+
+.karta {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  text-align: left !important;
+  width: 380px;
+  height: 200px;
+  background-color: white;
+  margin: 5px;
+  color: rgb(8, 38, 157);
+  border-radius: 5%;
+  padding: 1.5rem;
+}
+
+.karta__obrazek {
+  display: block;
+  height: auto;
+  width: 200px;
+}
+
+.karta__name {
+  font-weight: bold;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
