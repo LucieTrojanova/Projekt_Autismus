@@ -2,5 +2,7 @@ import { karta } from './karta/index.js';
 import './style.css';
 
 export const organizace = (props) => {
-  document.querySelector('#app').append(karta({}), karta({}));
+  const element = document.createElement('div');
+  element.innerHTML = karta();
+  return element;
 };
